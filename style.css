@@ -1,0 +1,71 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+.container{
+    height: 500px;
+    width: 600px;
+    margin: 50px 0 0 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgb(172, 171, 171);
+}
+.container .currency_value_now .currency_value_header{
+    display: flex;
+   justify-content: end;
+   padding: 20px 20px 20px 0;
+}
+.container .currency_value_now .currency_value_header .span_1{
+    padding-right: 100px;
+}
+
+.container .currency_value_now .current_currency{
+    display: flex;
+    padding-bottom: 5px;
+    justify-content: space-between;
+}
+
+.container .currency_value_now .current_currency .current_currency_img{
+    display: flex;
+    padding-left: 20px;
+}
+.container .currency_value_now .current_currency .current_currency_img img{
+    padding-right: 20px;   
+}
+.container .currency_value_now .current_currency .currency_value_1{
+    padding-left: 190px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.container .currency_value_now .current_currency .currency_value_2{
+    padding-right: 10px;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.container .exchange_container{
+    display: flex;
+}
+.container .exchange_container label{
+    padding-left: 20px;
+}
+.container .exchange_container select{
+    width: 90%;
+    height: 50px;
+    margin-left: 20px;
+    border: 1px solid rgb(194, 193, 193);
+    border-radius: 5px;
+    font-size: 20px;
+    color: rgb(80, 79, 79);
+}
+
+.container .exchange_container input{
+    width: 90%;
+    height: 50px;
+    margin: 20px 0 0 20px;
+    border: 1px solid rgb(194, 193, 193);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
